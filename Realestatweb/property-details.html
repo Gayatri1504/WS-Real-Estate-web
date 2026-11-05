@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Property Details</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">
+            <img src="photos/581_frame.png" alt="Logo">
+        </div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Explore</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+        <button>Request a call</button>
+    </nav>
+
+    <!-- Main Content Container (Center aligned) -->
+    <main class="property-details-container" style="max-width: 1280px; margin: 100px auto 40px; padding: 0 20px;">
+        
+        <!-- Top Title & Price Section -->
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 25px;">
+            <div>
+                <h1 style="font-size: 30px; margin-bottom: 8px;">Light and Modern House <span style="font-size: 16px; color: #777; font-weight: normal;">• Austin, TX</span></h1>
+                <div style="display: flex; gap: 10px;">
+                    <span style="background: #e1f5fe; color: #0288d1; padding: 4px 12px; font-size: 12px; font-weight: bold; border-radius: 4px;">FOR RENT</span>
+                    <span style="background: #e8f5e9; color: #388e3c; padding: 4px 12px; font-size: 12px; font-weight: bold; border-radius: 4px;">FEATURED</span>
+                </div>
+            </div>
+            <div style="font-size: 32px; font-weight: bold; color: #111;">$4,500<span style="font-size: 16px; color: #777;">/mo</span></div>
+        </div>
+
+        <!-- Image Gallery & Inquiry Form Grid -->
+        <div style="display: grid; grid-template-columns: 2.2fr 1fr; gap: 30px; margin-bottom: 40px; align-items: start;">
+            
+            <!-- Left Image Gallery -->
+            <div>
+                <img src="photos/666_frame.png" style="width: 100%; max-width: 905px; height: 595px; object-fit: cover; border-radius: 12px; margin-bottom: 12px;" alt="Main Image">
+            </div>
+
+            <!-- Right Inquiry Form Sidebar -->
+            <div style="background: #ffffff; padding: 25px; border-radius: 12px; border: 1px solid #e0e0e0; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
+                <h3 style="font-size: 20px; margin-bottom: 15px;">Submit an inquiry</h3>
+                <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 20px;">
+                    <img src="photos/681_rectangle.png" style="width: 65px; height: 66px; border-radius: 0; object-fit: cover;" alt="Agent">
+                    <div>
+                        <h4 style="font-size: 16px;">Martha Stewart</h4>
+                        <p style="font-size: 13px; color: #777;">Property Consultant</p>
+                    </div>
+                </div>
+                <form>
+                    <label style="font-size: 12px; font-weight: 600; color: #555; display: block; margin-bottom: 5px;">Name</label>
+                    <input type="text" placeholder="Your Name" style="width: 100%; padding: 10px; margin-bottom: 12px; border: 1px solid #ddd; border-radius: 6px; outline: none;">
+
+                    <label style="font-size: 12px; font-weight: 600; color: #555; display: block; margin-bottom: 5px;">Email</label>
+                    <input type="email" placeholder="Your Email" style="width: 100%; padding: 10px; margin-bottom: 12px; border: 1px solid #ddd; border-radius: 6px; outline: none;">
+
+                    <label style="font-size: 12px; font-weight: 600; color: #555; display: block; margin-bottom: 5px;">Phone Number</label>
+                    <input type="text" placeholder="+1 (555) 000-0000" style="width: 100%; padding: 10px; margin-bottom: 12px; border: 1px solid #ddd; border-radius: 6px; outline: none;">
+
+                    <label style="font-size: 12px; font-weight: 600; color: #555; display: block; margin-bottom: 5px;">Message</label>
+                    <textarea placeholder="Write your message..." style="width: 100%; padding: 10px; height: 80px; margin-bottom: 15px; border: 1px solid #ddd; border-radius: 6px; resize: none; outline: none;"></textarea>
+
+                    <button type="submit" style="width: 100%; background: #258cff; color: white; border: none; padding: 12px; border-radius: 6px; font-weight: 600; cursor: pointer;">Submit</button>
+                </form>
+            </div>
+
+        </div>
+
+        <!-- Overview Section -->
+        <div style="background: white; padding: 25px; border-radius: 12px; border: 1px solid #e0e0e0; margin-bottom: 25px;">
+            <h3 style="font-size: 20px; margin-bottom: 20px; border-bottom: 1px solid #eee; padding-bottom: 10px;">Overview</h3>
+            <div style="display: grid; grid-template-columns: repeat(6, 1fr); gap: 20px;">
+                <div><span style="font-size: 13px; color: #777; display: block; margin-bottom: 4px;">Property Type</span><strong style="font-size: 15px;">Shared House</strong></div>
+                <div><span style="font-size: 13px; color: #777; display: block; margin-bottom: 4px;">Year Built</span><strong style="font-size: 15px;">2015</strong></div>
+                <div><span style="font-size: 13px; color: #777; display: block; margin-bottom: 4px;">Size (m²)</span><strong style="font-size: 15px;">1950</strong></div>
+                <div><span style="font-size: 13px; color: #777; display: block; margin-bottom: 4px;">Bedrooms</span><strong style="font-size: 15px;">6</strong></div>
+                <div><span style="font-size: 13px; color: #777; display: block; margin-bottom: 4px;">Bathrooms</span><strong style="font-size: 15px;">3</strong></div>
+                <div><span style="font-size: 13px; color: #777; display: block; margin-bottom: 4px;">Garage</span><strong style="font-size: 15px;">2</strong></div>
+            </div>
+        </div>
+
+        <!-- Address Section -->
+        <div style="background: white; padding: 25px; border-radius: 12px; border: 1px solid #e0e0e0; margin-bottom: 25px;">
+            <h3 style="font-size: 20px; margin-bottom: 20px; border-bottom: 1px solid #eee; padding-bottom: 10px;">Address</h3>
+            <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px 40px;">
+                <div style="display: flex; flex-direction: row; justify-content: space-between;">
+                    <strong style="font-size: 15px;">Address</strong>
+                    <span>7409 Knollwood Cove, 78731</span>
+                </div>
+                <div style="display: flex; flex-direction: row; justify-content: space-between;">
+                    <strong style="font-size: 15px;">Zip/Postal Code</strong>
+                    <span>78731</span>
+                </div>
+                <div style="display: flex; flex-direction: row; justify-content: space-between;">
+                    <strong style="font-size: 15px;">City</strong>
+                    <span>Austin</span>
+                </div>
+                <div style="display: flex; flex-direction: row; justify-content: space-between;">
+                    <strong style="font-size: 15px;">Area</strong>
+                    <span>Knollwood</span>
+                </div>
+                <div style="display: flex; flex-direction: row; justify-content: space-between;">
+                    <strong style="font-size: 15px;">State/county</strong>
+                    <span>Texas</span>
+                </div>
+                <div style="display: flex; flex-direction: row; justify-content: space-between;">
+                    <strong style="font-size: 15px;">Country</strong>
+                    <span>United States</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Description Section -->
+        <div style="background: white; padding: 25px; border-radius: 12px; border: 1px solid #e0e0e0; margin-bottom: 25px;">
+            <h3 style="font-size: 20px; margin-bottom: 20px; border-bottom: 1px solid #eee; padding-bottom: 10px;">Description</h3>
+            <p style="font-size: 14px; color: #555; line-height: 1.7;">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </p>
+        </div>
+
+
+
+        <!-- Features Section -->
+        <div style="background: white; padding: 25px; border-radius: 12px; border: 1px solid #e0e0e0; margin-bottom: 25px;">
+            <h3 style="font-size: 20px; margin-bottom: 20px; border-bottom: 1px solid #eee; padding-bottom: 10px;">Features</h3>
+            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px 30px;">
+                <!-- Column 1 (5 items) -->
+                <div style="display: flex; align-items: center; gap: 10px;">
+                    <span style="color: #0073e6; font-size: 14px;">✔</span>
+                    <span style="font-size: 14px; color: #333;">Air Conditioning</span>
+                </div>
+                <!-- Column 2 (5 items) -->
+                <div style="display: flex; align-items: center; gap: 10px;">
+                    <span style="color: #0073e6; font-size: 14px;">✔</span>
+                    <span style="font-size: 14px; color: #333;">Shared gym</span>
+                </div>
+                <!-- Column 3 (2 items) -->
+                <div style="display: flex; align-items: center; gap: 10px;">
+                    <span style="color: #0073e6; font-size: 14px;">✔</span>
+                    <span style="font-size: 14px; color: #333;">TV Cable</span>
+                </div>
+
+                <div style="display: flex; align-items: center; gap: 10px;">
+                    <span style="color: #0073e6; font-size: 14px;">✔</span>
+                    <span style="font-size: 14px; color: #333;">External Yard</span>
+                </div>
+                <div style="display: flex; align-items: center; gap: 10px;">
+                    <span style="color: #0073e6; font-size: 14px;">✔</span>
+                    <span style="font-size: 14px; color: #333;">Kitchen Appliances</span>
+                </div>
+                <div style="display: flex; align-items: center; gap: 10px;">
+                    <span style="color: #0073e6; font-size: 14px;">✔</span>
+                    <span style="font-size: 14px; color: #333;">Washer</span>
+                </div>
+
+                <div style="display: flex; align-items: center; gap: 10px;">
+                    <span style="color: #0073e6; font-size: 14px;">✔</span>
+                    <span style="font-size: 14px; color: #333;">Dryer</span>
+                </div>
+                <div style="display: flex; align-items: center; gap: 10px;">
+                    <span style="color: #0073e6; font-size: 14px;">✔</span>
+                    <span style="font-size: 14px; color: #333;">Outdoor Shower</span>
+                </div>
+                <div></div> <!-- Empty space for grid alignment if needed -->
+
+                <div style="display: flex; align-items: center; gap: 10px;">
+                    <span style="color: #0073e6; font-size: 14px;">✔</span>
+                    <span style="font-size: 14px; color: #333;">Gym</span>
+                </div>
+                <div style="display: flex; align-items: center; gap: 10px;">
+                    <span style="color: #0073e6; font-size: 14px;">✔</span>
+                    <span style="font-size: 14px; color: #333;">Two Refrigerators</span>
+                </div>
+                <div></div>
+
+                <div style="display: flex; align-items: center; gap: 10px;">
+                    <span style="color: #0073e6; font-size: 14px;">✔</span>
+                    <span style="font-size: 14px; color: #333;">Laundry</span>
+                </div>
+                <div style="display: flex; align-items: center; gap: 10px;">
+                    <span style="color: #0073e6; font-size: 14px;">✔</span>
+                    <span style="font-size: 14px; color: #333;">Club House</span>
+                </div>
+                <div></div>
+            </div>
+        </div>
+
+
+        <!-- Featured Listings Section -->
+        <section class="featured" style="margin-top: 50px;">
+            <h2>Featured Listings</h2>
+            <p>Browser our wide range of featured properties.</p>
+            <div class="featured-grid">
+                <div class="featured-card">
+                    <img src="photos/385_frame.png" alt="Featured">
+                    <div class="feature-info">
+                        <h3>Light And Modern House</h3>
+                        <p>7409 Knollwood Cove, Austin, TX 78731</p>
+                    </div>
+                </div>
+
+                <div class="featured-card">
+                    <img src="photos/424_frame.png" alt="Featured">
+                    <div class="feature-info">
+                        <h3>Light And Modern House</h3>
+                        <p>7409 Knollwood Cove, Austin, TX 78731</p>
+                    </div>
+                </div>
+
+                <div class="featured-card">
+                    <img src="photos/463_group.png" alt="Featured">
+                    <div class="feature-info">
+                        <h3>Light And Modern House</h3>
+                        <p>7409 Knollwood Cove, Austin, TX 78731</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Full Width Footer -->
+    <footer>
+        <div class="footer-inner">
+            <!-- Newsletter Signup Row -->
+            <div class="newsletter-row">
+                <h3>Newsletter Signup</h3>
+                <div class="newsletter-input">
+                    <input type="email" placeholder="Enter your email">
+                </div>
+            </div>
+
+            <!-- Main Footer Columns -->
+            <div class="footer-columns">
+                <div class="footer-col brand-col">
+                    <img src="photos/581_frame.png" alt="Logo" class="footer-logo-img">
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod lorem ipsum dolor sit amet.</p>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Explore</h4>
+                    <ul>
+                        <li>&bull; Lorem Ipsum</li>
+                        <li>&bull; Lorem Ipsum</li>
+                        <li>&bull; Lorem Ipsum</li>
+                        <li>&bull; Lorem Ipsum</li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <ul>
+                        <li>&bull; Lorem Ipsum</li>
+                        <li>&bull; Lorem Ipsum</li>
+                        <li>&bull; Lorem Ipsum</li>
+                        <li>&bull; Lorem Ipsum</li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li>&bull; Lorem Ipsum</li>
+                        <li>&bull; Lorem Ipsum</li>
+                        <li>&bull; Lorem Ipsum</li>
+                        <li>&bull; Lorem Ipsum</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Copyright Bar -->
+            <div class="copyright-bar">
+                &copy; Lorem Ipsum - All rights reserved
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
